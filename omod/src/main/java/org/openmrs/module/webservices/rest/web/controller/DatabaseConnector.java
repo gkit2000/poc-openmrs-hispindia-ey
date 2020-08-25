@@ -28,9 +28,9 @@ public class DatabaseConnector {
 		String url = props.getProperty("hibernate.connection.url");
 		
 		// System.out.println("driver---------------" + driver);
-		System.out.println("username---------------" + username);
-		System.out.println("password---------------" + password);
-		System.out.println("url---------------" + url);
+		// System.out.println("username---------------" + username);
+		// System.out.println("password---------------" + password);
+		// System.out.println("url---------------" + url);
 		
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
